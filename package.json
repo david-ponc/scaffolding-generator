@@ -1,0 +1,59 @@
+{
+	"name": "generator-scaffolding",
+	"version": "0.1.0",
+	"description": "scaffolding generator",
+	"author": "David Ponce Vargas",
+	"license": "MIT",
+	"files": [
+		"generators"
+	],
+	"keywords": [
+		"yoeman-generator"
+	],
+	"scripts": {
+		"test": "jest"
+	},
+	"dependencies": {
+		"chalk": "4.1.2",
+		"yeoman-generator": "5.6.1"
+	},
+	"devDependencies": {
+		"eslint": "8.17.0",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-config-standard": "17.0.0",
+		"eslint-plugin-import": "2.26.0",
+		"eslint-plugin-n": "15.2.1",
+		"eslint-plugin-promise": "6.0.0",
+		"jest": "28.1.0",
+		"prettier": "2.6.2",
+		"yeoman-assert": "3.1.1",
+		"yeoman-test": "6.3.0"
+	},
+	"eslintConfig": {
+		"env": {
+			"commonjs": true,
+			"es2021": true,
+			"node": true,
+			"jest": true
+		},
+		"extends": [
+			"standard",
+			"prettier"
+		],
+		"parserOptions": {
+			"ecmaVersion": "latest"
+		},
+		"rules": {}
+	},
+	"prettier": {
+		"useTabs": true,
+		"semi": true,
+		"singleQuote": true,
+		"jsxSingleQuote": true,
+		"trailingComma": "none",
+		"arrowParens": "avoid"
+	},
+	"jest": {
+		"verbose": true
+	}
+}
