@@ -1,6 +1,9 @@
 <div align='center'>
  <h2><b>Scaffolding generator</b></h2>
  <p>Powered by <a href='https://github.com/yeoman/generator' target='_blank'>yeoman/generator</a></p>
+ <a href='https://github.com/david-ponc/scaffolding-generator/actions/workflows/CI.yml'>
+  <img src='https://github.com/david-ponc/scaffolding-generator/actions/workflows/CI.yml/badge.svg?branch=main' alt="test status">
+ </a>
 </div>
 
 ## 🚀 What makes:
