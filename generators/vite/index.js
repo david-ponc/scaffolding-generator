@@ -4,12 +4,12 @@ const {
 	eslintJsDependencies,
 	eslintJsConfig,
 	tsconfigToJs
-} = require('../../utils/js');
+} = require('./utils/js');
 const {
 	eslintTsDependencies,
 	eslintTsConfig,
 	tsconfigToTs
-} = require('../../utils/ts');
+} = require('./utils/ts');
 
 module.exports = class extends Generator {
 	constructor(args, options) {
