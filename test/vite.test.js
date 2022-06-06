@@ -3,8 +3,8 @@ const helpers = require('yeoman-test');
 const assert = require('yeoman-assert');
 const fs = require('fs');
 
-const { eslintJsConfig, tsconfigToJs } = require('../utils/js');
-const { eslintTsConfig, tsconfigToTs } = require('../utils/ts');
+const { eslintJsConfig, tsconfigToJs } = require('../generators/vite/utils/js');
+const { eslintTsConfig, tsconfigToTs } = require('../generators/vite/utils/ts');
 
 describe('scaffolding:vite', function () {
 	it('Run scaffolding', function () {
