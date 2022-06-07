@@ -11,7 +11,9 @@
 		"yoeman-generator"
 	],
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"test:silent": "jest --silent",
+		"dev": "node generators/vite/index.js"
 	},
 	"dependencies": {
 		"chalk": "4.1.2",
@@ -52,8 +54,5 @@
 		"jsxSingleQuote": true,
 		"trailingComma": "none",
 		"arrowParens": "avoid"
-	},
-	"jest": {
-		"verbose": true
 	}
 }
