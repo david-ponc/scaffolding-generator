@@ -15,6 +15,10 @@
 		"test:silent": "jest --silent",
 		"dev": "node generators/vite/index.js"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/david-ponc/scaffolding-generator"
+	},
 	"dependencies": {
 		"chalk": "4.1.2",
 		"yeoman-generator": "5.6.1"
